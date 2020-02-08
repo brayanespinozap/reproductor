@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.main__container{
+    padding-left: .5rem;
+}
+
+.main__description{
+    margin-top: -.5em;
+    color: var(--c-black-light);
+}
+
+.main__container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__button{
+    display: inline-block;
+    color: #fff;
+    padding: .4em .6em;
+    border-radius: .2rem;
+    font-size: .8em;
+    font-weight: bold;
+    background-color: var(--c-primary);
+}

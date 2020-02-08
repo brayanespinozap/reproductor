@@ -1,0 +1,35 @@
+.grid-music{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l-grid{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+
+.grid-album--random,
+.grid-album{
+    box-shadow: 0 2px 5px -4px rgba(0,0,0,.8);
+    border-radius: .2em;
+}
+
+.grid-album{
+    &__title{
+       font-weight: normal; 
+       font-size: .9em;
+    }
+
+    &__description{
+        color: var(--c-black-light);
+        font-size: .7em;
+        margin-top: -.3em;
+    }
+
+    &__menu-container{
+        display: none;
+    }
+}
